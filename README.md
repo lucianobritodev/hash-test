@@ -24,6 +24,18 @@ $ sudo ln -s /usr/sbin/integrity-test.sh /usr/bin/integrity-test
 ```
 
 You can integrate it into the context menu to make it easier to run.
+Create a file in the directory `/usr/share/nemo/actions/` with name `integrity-test.nemo_action` containing the following instructions:
+
+```
+[Nemo Action]
+Name=Integrity Test
+Comment=Hash sha256sum and md5sum test
+Exec=integrity-test '%F'
+Extensions=any;
+Icon-Name=edit-find-symbolic
+Active=true
+Selection=None
+```
 
 ## Contributors
 
