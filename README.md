@@ -2,7 +2,7 @@
 
 ## Description
 
-The Integrity Test is script created to generate, compare and verify file integrity using sha256sum or md5sum test.
+The Integrity Test is script with GUI created to generate, compare and verify file integrity using sha256sum or md5sum test.
 
 ## Execution
 
