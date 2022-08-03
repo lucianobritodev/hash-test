@@ -1,36 +1,36 @@
-# Integrity Test
+# Hash Test
 
 ## Description
 
-The Integrity Test is script with GUI created to generate, compare and verify file integrity using sha256sum or md5sum test.
+The Hash Test is script with GUI created to generate, compare and verify file integrity using sha256sum or md5sum test.
 
 ## Execution
 
 1. To run the script, first of all, clone the project or download the zipped source code to your local machine.
 2. Access the project folder and open terminal and run the command to add execution permission:
 ```
-$ sudo chmod +x integrity-test.sh
+$ sudo chmod +x hash-test.sh
 ```
 3. run the command to run script.
 ```
-$ ./integrity-test.sh
+$ ./hash-test.sh
 ```
 
 For ease of use you can create a symbolic link to a directory of binaries and be able to call it from the terminal. To do this, just run the following commands.
 
 ```
-$ sudo mv integrity-test.sh /usr/sbin/
-$ sudo ln -s /usr/sbin/integrity-test.sh /usr/bin/integrity-test
+$ sudo mv hash-test.sh /usr/sbin/
+$ sudo ln -s /usr/sbin/hash-test.sh /usr/bin/hash-test
 ```
 
 You can integrate it into the context menu to make it easier to run.
-Create a file in the directory `/usr/share/nemo/actions/` with name `integrity-test.nemo_action` containing the following instructions:
+Create a file in the directory `/usr/share/nemo/actions/` with name `hash-test.sh.nemo_action` containing the following instructions:
 
 ```
 [Nemo Action]
-Name=Integrity Test
+Name=Hash Test
 Comment=Hash sha256sum and md5sum test
-Exec=integrity-test '%F'
+Exec=hash-test '%F'
 Extensions=any;
 Icon-Name=edit-find-symbolic
 Active=true
