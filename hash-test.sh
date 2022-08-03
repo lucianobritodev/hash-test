@@ -18,6 +18,7 @@
 #
 # e-mail: lucianobrito.dev@gmail.com
 # github: github.com/lucianobritodev
+# linkedin: linkedin.com/in/luciano-brito-dev
 #
 #-------------------------------------------------------
 #
@@ -31,10 +32,10 @@
 #
 # To run the script run one of the following commands:
 #
-# chmod +x integrity-test.sh 	=> Add execution permission
-# ./integrity-test.sh 			=> To exec
+# chmod +x hash-test.sh 		=> Add execution permission
+# ./hash-test.sh			=> To exec
 # or
-# bash integrity-test.sh 		=> To exec
+# bash hash-test.sh 			=> To exec
 #-------------------------------------------------------
 
 _VERIFICATION=
